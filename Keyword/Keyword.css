@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #FFF8E8;
+}
+.container2{
+    display: flex; /* 요소들을 옆으로 나란히 배치 */
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    gap: 20px; /* Rectangle1과 Rectangle2 사이 간격 */
+}
+.Keyword img {
+    margin-top: 20px;
+    width: 150px; /* 원하는 너비 */
+    height: auto; /* 비율을 유지하며 높이를 자동 조절 */
+    margin-bottom: -20px; /* 로고와 .text 간격을 10px로 설정 */
+}
+.text{
+    margin-right: 200px;
+    width: 700px;
+    height: auto;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+.text2{
+    font-size: 17px;
+}
+.Rectangle1 {
+    margin: 100px;
+    width: 10px;
+    height: auto;
+    transform: scale(0.6); /* 전체 크기를 80%로 축소 */
+}
+.Rectangle2 {
+    align-self: flex-start; /* 개별 요소의 수직 위치 조정 */
+    margin-top: 20px; /* Rectangle1보다 약간 아래로 내려옴 */
+}
+.Rectangle1, .Rectangle2 , .Rectangle3{
+    width: 1000px; /* 너비를 조정 */
+    height: auto;
+    transform: scale(0.6);
+}
+.container3{
+    display: flex; /* 요소들을 옆으로 나란히 배치 */
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    gap: 20px; /* Rectangle1과 Rectangle2 사이 간격 */
+}
+.Rectangle5{
+    align-self: flex-start;
+    margin-top: -30px;
+}
+.Rectangle4,.Rectangle5, .Rectangle6{
+    width: 1000px; /* 너비를 조정 */
+    height: auto;
+    transform: scale(0.6);
+}
