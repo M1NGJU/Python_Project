@@ -1,0 +1,23 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <title>HOME</title>
+</head>
+<body>
+    <div class="container">
+        <a href="{{ url_for('login_page') }}">
+            <div class="home">
+                <img src="{{ url_for('static', filename='30-DAY.png') }}">
+            </div>
+        </a>
+        
+        <div class="text">
+            <p>목표를 쉽게, 30일 챌린지</p>
+        </div>
+    </div>
+</body>
+</html>
