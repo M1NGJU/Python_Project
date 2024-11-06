@@ -56,3 +56,36 @@ body{
     height: auto;
     transform: scale(0.6);
 }
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Rectangle7, .Rectangle8{
+    width: 500px;
+    height: auto;
+    transform: scale(0.6);
+}
+.Ck {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="submit"]{
+    width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #66806A;
+}
+.kwtext {
+    color: #66806A;
+    text-decoration-line: none;
+    font-size: 20px;
+    display: flex;          
+    justify-content: flex-end;
+    text-align: right;     
+    margin-top: 10px;    
+}
